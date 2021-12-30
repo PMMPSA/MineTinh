@@ -1,0 +1,486 @@
+---
+Guest:
+  alias: gst
+  inheritance: []
+  permissions:
+  - -pocketmine.command.me
+  - command.mw
+  - command.transfer
+  - command.transferserver
+  - essentials.kit
+  - essentials.kit.other
+  - fly.command
+  - gamemode.transferserver
+  - mw.command
+  - notp.command
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pocketmine.command.mw
+  - pocketmine.command.tranferserver
+  - pocketmine.command.transfer
+  - pocketmine.command.transferserver
+  - pocketmine.command.warp
+  - pocketmine.mw.command
+  - pocketmine.transfer.command
+  - pocketmine.transferserver.command
+  - pperms.command.ppinfo
+  - sell.all
+  - sell.hand
+  - transfer.command
+  - transferserver.command
+  - warp.command
+  worlds: []
+  isDefault: true
+Admin:
+  alias: adm
+  inheritance:
+  - Guest
+  permissions:
+  - commands.enchant.maxLevel
+  - danhhieu.use
+  - essentials.gamemode
+  - pets
+  - pocketmine.broadcast
+  - pocketmine.command.ban
+  - pocketmine.command.gamemode
+  - pocketmine.command.give
+  - pocketmine.command.kick
+  - pocketmine.command.size
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - ptkcustomenchants.command.ce
+  - ptkcustomenchants.command.ce.enchant
+  - sell.all
+  - sell.hand
+  - size.command
+  - vipjoin.use
+  worlds: []
+Owner:
+  alias: owr
+  inheritance:
+  - Admin
+  permissions:
+  - essentials
+  - pocketmine.command
+  - pperms.command
+  - sell hand
+  - sell.all
+  worlds: []
+OP:
+  alias: op
+  inheritance: []
+  permissions:
+  - '*'
+  - notp.command
+  - sell.all
+  worlds: []
+Police:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - ban.command
+  - blazinfly.command
+  - command.ban
+  - command.say
+  - fly.command
+  - notp.command
+  - pocketmine.ban.command
+  - pocketmine.command.ban
+  - pocketmine.command.gamemode
+  - pocketmine.command.kick
+  - pocketmine.command.notp
+  - pocketmine.command.say
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - pocketmine.gamemode.command
+  - pocketmine.say.command
+  - pocketmine.time.command
+  - say.command
+  - sell.all
+  - sell.hand
+  - setmoney.command
+  - uiwngrain.command
+  - winghappy.command
+  - wingheart.command
+  worlds: []
+Helper:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - blazinfly.command
+  - blazinvanish.command
+  - fly.command
+  - pocketmine.command.gamemode
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - pocketmine.kick.command
+  - sell.all
+  - sell.hand
+  worlds: []
+Builder:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - command.tp
+  - command.wand
+  - feed.command
+  - fly.command
+  - gmc.command
+  - gms.command
+  - heal.command
+  - notp.command
+  - pocketmine.command.gamemode
+  - pocketmine.command.op
+  - pocketmine.command.teleport
+  - pocketmine.command.tp
+  - pocketmine.command.wand
+  - pocketmine.tp.command
+  - pocketmine.wand.command
+  - sell.all
+  - sell.hand
+  - tp.command
+  - wand.command
+  worlds: []
+Youtuber:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - fly.command
+  - notp.command
+  - notp.commanr
+  - pocketmine.command.gamemode
+  - sell.all
+  - sell.hand
+  worlds: []
+VipI:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - blazinfly.command
+  - feed.command
+  - fly.command
+  - heal.command
+  - pocketmine.command.gamemode
+  - pocketmine.gamemode.command
+  - sell.all
+  - sell.hand
+  - vipjoin.use
+  worlds: []
+VipII:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - blazinfly.command
+  - choden.command
+  - command.size
+  - feed.command
+  - fly.command
+  - heal.command
+  - pocketmine.command.size
+  - pocketmine.size.command
+  - sell.all
+  - sell.hand
+  - size.command
+  - vipjoin.use
+  worlds: []
+VipIII:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - command.gamemode
+  - command.givecup
+  - command.tp
+  - feed.command
+  - fly.command
+  - gamemode.command
+  - givecup.command
+  - heal.command
+  - notp.command
+  - pocketmine.command.gamemode
+  - pocketmine.command.givecup
+  - pocketmine.command.size
+  - pocketmine.command.time
+  - pocketmine.command.tp
+  - pocketmine.command.transfer
+  - pocketmine.command.weather
+  - pocketmine.gamemode.command
+  - pocketmine.givecup.command
+  - pocketmine.tp.command
+  - pocketmine.transfer.command
+  - sell.all
+  - sell.hand
+  - size.command
+  - tp.command
+  - vipjoin.use
+  worlds: []
+VipIV:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - blazinfly.command
+  - fly.comamnd
+  - pocketmine.command
+  - pocketmine.command.gamemode
+  - pocketmine.command.size
+  - pocketmine.command.time
+  - sell.all
+  - sell.hand
+  - size.command
+  - vipjoin.use
+  worlds: []
+Kmem:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - feed.command
+  - fly.command
+  - pocketmine.command.gamemode
+  - sell.all
+  - sell.hand
+  worlds: []
+Gay:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+Member:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - crate.key.create
+  - cratekeys.chest.create
+  worlds: []
+Coal:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - fly.command
+  - sell.all
+  - sell.hand
+  worlds: []
+Iron:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - autosell.command
+  - blazinfly.command
+  - command.transfer
+  - fly.command
+  - pocketmine.command.transfer
+  - pocketmine.transfer.command
+  - sell.all
+  - sell.hand
+  - transfer.command
+  worlds: []
+Gold:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - autosell.command
+  - blazinfly.command
+  - command.tp
+  - fly.command
+  - notp.command
+  - pocketmine.command.teleport
+  - pocketmine.command.tp
+  - pocketmine.tp.command
+  - sell.all
+  - sell.hand
+  - tp.command
+  worlds: []
+Diamond:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - autosell.command
+  - blazinfly.command
+  - fly.command
+  - notp.command
+  - pocketmine.command.teleport
+  - sell.all
+  - sell.hand
+  - wainghappy.command
+  worlds: []
+Master:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - blazinfly.command
+  - command.gamemode
+  - command.tranferserver
+  - fly.command
+  - gamemode.command
+  - gamemode.tranferserver
+  - notp.command
+  - pets.command
+  - pocketmine.command.gamemode
+  - pocketmine.command.teleport
+  - pocketmine.command.tranferserver
+  - pocketmine.gamemode.command
+  - sell.all
+  - sell.hand
+  - size.command
+  - wingenchant.command
+  - winghappy.command
+  - wingheart.command
+  worlds: []
+King:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - blazinfly.command
+  - fly.command
+  - notp.command
+  - pocketmine.command.teleport
+  - sell.all
+  - sell.hand
+  worlds: []
+VIPMaster:
+  alias: op
+  inheritance: []
+  permissions:
+  - blazinfly.command
+  - choden.command
+  - command
+  - command.gamemode
+  - command.givecup
+  - command.winghappy
+  - fly.command
+  - gamemode.command
+  - givecup.command
+  - mw.command
+  - notp.command
+  - op
+  - pets.command
+  - pocketmine.command.gamemode
+  - pocketmine.command.givecup
+  - pocketmine.command.teleport
+  - pocketmine.command.winghappy
+  - pocketmine.givecup.command
+  - pocketmine.winghappy.command
+  - sell.all
+  - sell.hand
+  - size.command
+  - vipjoin.use
+  - warp.command
+  - wingenchant.command
+  - winghappy.comman
+  - winghappy.command
+  - wingheart.command
+  worlds: []
+VipMaster:
+  alias: op
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+VipV:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - blazinfly.command
+  - fly.command
+  - khongtp.command
+  - notp.command
+  - pocketmine.command.gamemode
+  - pocketmine.command.teleport
+  - sell.all
+  - sell.hand
+  - vipjoin.use
+  - winghappy.command
+  - wingrain.command
+  worlds: []
+KING:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+cur:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+bbb:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+Tinh_Anh:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+sv:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+VipVI:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+Topcup:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+Test:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+Vip7:
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+Vip8:
+  isDefault: false
+  inheritance: []
+  permissions:
+  - Pocketmine.command.gamemode
+  - blazinfly.command
+  - fly.command
+  - pocketmine.command.gamemode
+  - pocketmine.command.say
+  - pocketmine.command.teleport
+  - sell.all
+  - sell.hand
+  - size.command
+  - vipjoin.use
+  worlds: []
+Besoitrang:
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+...

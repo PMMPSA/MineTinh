@@ -1,0 +1,15 @@
+name: WingEnchant
+main: EnchantWings\Main
+version: 1.3
+api: [1.0.0]
+author: "vk.com/eddir"
+commands:
+  wingenchant:
+    description: Lấy Cánh Enchant
+    permission: wingenchant.command
+    usage: /wingenchant
+permissions:
+  wingenchant.command:
+    default: op
+    description: Cho Phép Người Chơi Lấy Cánh Enchant
+#Ghast Noob

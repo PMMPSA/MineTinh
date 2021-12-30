@@ -1,0 +1,9 @@
+name: PickaxeLevel
+main: PickaxeLevel\phuongaz\Main
+api: [3.0.0]
+author: JakayPluginVN (JKPVN)
+version: 2.0
+commands:
+ givecup:
+  description: Hồi Sinh Cúp Của Bạn
+  default: op

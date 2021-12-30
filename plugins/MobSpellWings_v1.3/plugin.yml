@@ -1,0 +1,15 @@
+name: WingMobSpell
+main: MobSpellWings\Main
+version: 1.3
+api: [1.0.0]
+author: "vk.com/eddir"
+commands:
+  wingmobspell:
+    description: Lấy Cánh MobSpell
+    permission: wingmobspell.command
+    usage: /wingmobspell
+permissions:
+  wingmobspell.command:
+    default: op
+    description: Cho Phép Người Chơi Lấy Cánh MobSpell
+#Ghast Noob

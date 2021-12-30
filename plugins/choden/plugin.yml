@@ -1,0 +1,10 @@
+name: ChoDen
+version: 2.0
+main: trade9\Main
+author: Jero [Edit By CurliestDrake66]
+description: Plugin ChoDen
+api: 2.0.0
+commands:
+ choden:
+  usage: /choden
+  default: true

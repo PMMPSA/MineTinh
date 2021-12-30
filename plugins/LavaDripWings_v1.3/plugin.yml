@@ -1,0 +1,15 @@
+name: WingLavaDrip
+main: LavaDripWings\Main
+version: 1.3
+api: [1.0.0]
+author: "vk.com/eddir"
+commands:
+  winglavadrip:
+    description: Lấy Cánh LavaDrip
+    permission: winglavadrip.command
+    usage: /winglavadrip
+permissions:
+  winglavadrip.command:
+    default: op
+    description: Cho Phép Người Chơi Lấy Cánh LavaDrip
+#Ghast Noob

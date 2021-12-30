@@ -1,0 +1,78 @@
+TerminatorVN Crash Dump Wed Mar 4 14:19:34 UTC 2020
+
+Error: Declaration of FactionsPro\FactionMain::onCommand(pocketmine\command\CommandSender $sender, pocketmine\command\Command $command, string $label, array $args): bool must be compatible with pocketmine\plugin\PluginBase::onCommand(pocketmine\command\CommandSender $sender, pocketmine\command\Command $command, $label, array $args)
+File: /FactionsPro_v1.3.11-5/src/FactionsPro/FactionMain
+Line: 31
+Type: E_COMPILE_ERROR
+
+THIS CRASH WAS CAUSED BY A PLUGIN
+
+Code:
+[22] use pocketmine\event\Listener;
+[23] use pocketmine\level\Level;
+[24] use pocketmine\Player;
+[25] use pocketmine\Server;
+[26] use pocketmine\utils\TextFormat;
+[27] use pocketmine\utils\Config;
+[28] use pocketmine\block\Snow;
+[29] use pocketmine\math\Vector3;
+[30] 
+[31] class FactionMain extends PluginBase implements Listener {
+[32] 
+[33]     public $db;
+[34]     public $prefs;
+[35]     public $war_req = [];
+[36]     public $wars = [];
+[37]     public $war_players = [];
+[38]     public $antispam;
+[39]     public $purechat;
+[40]     public $factionChatActive = [];
+[41]     public $allyChatActive = [];
+
+Backtrace:
+#0 (): pocketmine\Server->crashDump(boolean)
+
+TerminatorVN version: 0000000000000000000000000000000000000000 [Protocol 113; API 3.0.1]
+uname -a: Windows NT Vps05 6.3 build 9600 (Windows Server 2012 R2 Datacenter Edition) AMD64
+PHP version: 7.3.14
+Zend version: 3.3.14
+OS : WINNT, win
+
+Server uptime: 0 seconds
+Number of loaded worlds: 0
+Players online: 0/100
+
+Loaded plugins:
+Alias 1.2.0 by ZacHack for API(s) 1.12.0, 3.0.0-ALPHA6
+Lixi 2 by  for API(s) 2.0.0
+CoinAPI 1 by  for API(s) 1.0.0, 2.0.0, 3.0.0
+EconomyAPI 2.0.9 by onebone for API(s) 1.0.0, 1.1.0, 1.2.0, 1.2.1, 1.3.0, 1.3.1, 1.4.0, 1.4.1
+EconomySell 2.0.7 by onebone for API(s) 1.12.0
+EconomyShop 2.0.7 by onebone for API(s) 1.12.0
+EssentialsPE 2.0.0 by LegendsOfMCPE Team for API(s) 3.0.0-ALPHA6
+KeepInventory 1.0 by KhoaGamingPro for API(s) 3.0.0
+KillChat 1.0.2.MOD by Array for API(s) 1.9.0, 2.0.0
+MagicWE 0.2.6 by thebigsmileXD for API(s) 1.13.0, 2.0.0
+ManyWorlds 2.0.3 by aliuly for API(s) 2.0.0, 1.13.0
+MSpawns 1.5 by EvolSoft for API(s) 1.11.0
+NoAD 1.0.1 by Vaivez66 for API(s) 1.12.0
+NoFrameDrop 1 by  for API(s) 3.0.0, 3.0.1, 3.0.0-ALPHA1, 3.0.0-ALPHA2, 3.0.0-ALPHA3, 3.0.0-ALPHA3, 3.0.0-ALPHA4, 3.0.0-ALPHA5, 3.0.0-ALPHA6
+PlayerSize 1 by SoiCon for API(s) 3.0.0-ALPHA7
+PurePerms 1.3.7 by 64FF00 & ProjectInfinity for API(s) 1.13.0, 2.0.0
+Sell 2 by Muqsit for API(s) 2.0.0
+ServerAuth 2.12 by EvolSoft for API(s) 1.11.0
+Slapper 1.3.5 by jojoe77777 for API(s) 3.0.0-ALPHA5, 3.0.0-ALPHA6
+SpawnParticles 1 by UnknownCoderPro for API(s) 3.0.0, 3.2.0, 3.3.0, 4.0.0
+TapToDo 2.2.1 by Falk for API(s) 1.0.0
+VoteReward 3.0.2 by LDX for API(s) 1.12.0, 2.0.0
+WorldEdit 3.2 by ByZikenPE for API(s) 1.13.0
+WorldProtect 2.2.0 by aliuly for API(s) 1.10.0, 1.12.0
+BuyEnchant 1 by  for API(s) 2.0.0
+Bar 1 by LocVlogTM for API(s) 1.0.0, 2.0.0, 2.1.0, 3.0.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2, 3.0.0-ALPHA3, 3.0.0-ALPHA4
+ChuyenSinh 2 by Ghast Noob [Edit by NCD, Master Jero, CurlliestDrake66] for API(s) 2.0.0
+CmdSnooper 1.0.0 by HotshotHD for API(s) 3.1.1
+CuaHang 1 by Jero, Cur for API(s) 2.0.0
+CRAFT 2.0.9 by  for API(s) 3.0.0, 3.0.1
+BuyKIT 1 by Phuongaz for API(s) 2.0.0
+SETVIP 2.3 by MCPEVN TEAM for API(s) 3.0.0-ALPHA9
+PureChat 1.4.0 by 64FF00 for API(s) 1.13.0, 2.0.0

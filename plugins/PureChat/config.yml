@@ -1,0 +1,51 @@
+---
+version: 1.4.0-BETA-04
+default-factions-plugin: ~
+enable-multiworld-chat: false
+groups:
+  Guest:
+    chat: §b§l[§e{fac_name}§b] §9§l⚘§7§l﹏§fmєmвєr§7﹏§9⚘ {display_name} §a» §r{msg}
+      §a«
+    nametag: '&3&l{prefix}&e[Guest]&f&r {display_name}'
+    worlds: []
+  Admin:
+    chat: §b§l[§e{fac_name}§b] §e❖︵§4§l༊§cᴀ§eᴅ§aм§bι§dɴ§5༄§e︵✰ §d{display_name}§c⊹⊱
+      §6{msg} §c⊰⊹
+    nametag: '&3&l{prefix}&c[Admin]&f&r {display_name}'
+    worlds: []
+  Owner:
+    chat: '&3&l{prefix}&a[Owner]&f&r {display_name} &7> {msg}'
+    nametag: '&3&l{prefix}&a[Owner]&f&r {display_name}'
+    worlds: []
+  OP:
+    chat: '&3&l{prefix}&9[OP]&f&r {display_name} &7> {msg}'
+    nametag: '&3&l{prefix}&9[OP]&f&r {display_name}'
+    worlds: []
+  Police:
+    nametag: '&8&l[Police]&f&r {display_name}'
+    chat: §b§l[§e{fac_name}§b] §l§1✪§6...§b☯§e『§5§lƤøŁɪȼᴇ§e§l』§b§l☯§6...§1✪ §e{display_name}
+      §b→ §a{msg} §b←
+  Builder:
+    nametag: '&8&l[Builder]&f&r {display_name}'
+    chat: '&8&l[Builder]&f&r {display_name} &7> {msg}'
+  Helper:
+    chat: §b§l✇§c...§d§l『§aꜦҿɭƥᴇɼ§d§l』§c...§b§l✇ §a§l✿§c{display_name}§a§l✿ §1➟ §a♫
+      §d§l{msg} §a§l♫
+    nametag: '&8&l[Helper]&f&r {display_name}'
+  Kmem:
+    chat: §7§l[Kmem] {display_name} {msg}
+    nametag: '&8&l[Kmem]&f&r {display_name}'
+  Vip1:
+    nametag: '&8&l[Vip1]&f&r {display_name}'
+    chat: §l§6ミ§a★§eVїρ §4I§a★§6彡 §d{display_name} §r§b> {msg}
+  Youtuber:
+    chat: §b§l[§e{fac_name}§b] §d§l☘§a...§e『§fYｏｕ§4Tｕｂｅｒ§e』§a...§d§l☘ §e§l{display_name}
+      §e➠ §c{msg}
+    nametag: '&8&l[Youtuber]&f&r {display_name}'
+  Coal:
+    nametag: '&8&l[Coal]&f&r {display_name}'
+    chat: '&8&l[Coal]&f&r {display_name} &7> {msg}'
+  Tinh_Anh:
+    nametag: '&8&l[Tinh_Anh]&f&r {display_name}'
+    chat: '&8&l[Tinh_Anh]&f&r {display_name} &7> {msg}'
+...

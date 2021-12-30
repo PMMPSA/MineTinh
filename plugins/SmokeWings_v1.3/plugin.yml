@@ -1,0 +1,15 @@
+name: WingSmoke
+main: SmokeWings\Main
+version: 1.3
+api: [1.0.0]
+author: "vk.com/eddir"
+commands:
+  wingsmoke:
+    description: Lấy Cánh Smoke
+    permission: wingsmoke.command
+    usage: /wingsmoke
+permissions:
+  wingsmoke.command:
+    default: op
+    description: Cho Phép Người Chơi Lấy Cánh Smoke
+#Ghast Noob
